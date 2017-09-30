@@ -1,8 +1,20 @@
+.exchanges {
+  position: relative;
+  left: 60px;
+}
 
 .markets {
   position: relative;
   left: 20px;
-  top: 70px;
+  top: 10px;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.stalls {
+  position: relative;
+  left: 20px;
+  top: 10px;
   font-size: 0.8rem;
   font-weight: normal;
 }
@@ -26,8 +38,15 @@
   float: left;
 }
 
+.stall {
+  position: absolute;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
 .backButton {
   position: absolute;
+  width: 100px;
 }
 
 .counter {
